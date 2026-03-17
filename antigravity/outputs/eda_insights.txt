@@ -1,0 +1,11 @@
+### Exploratory Data Analysis Insights ###
+
+Analyzed 6607 records.
+Mean Exam Score: 67.24
+Median Exam Score: 67.00
+Max Exam Score: 101
+Min Exam Score: 55
+
+- The exam score distribution appears plotted and saved (plot1_exam_score_dist.png).
+- Numeric feature with highest absolute correlation to Exam_Score is Attendance (0.58). plotted as (plot2_correlation_matrix.png).
+- Exam score boxplot grouped by Parental_Involvement saved (plot3_score_by_parental_inv.png).

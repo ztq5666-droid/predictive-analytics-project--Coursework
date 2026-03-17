@@ -1,0 +1,10 @@
+### Missingness Report ###
+
+Missing values per column:
+  Teacher_Quality: 78 missing (1.18%)
+  Parental_Education_Level: 90 missing (1.36%)
+  Distance_from_Home: 67 missing (1.01%)
+
+Imputation Strategy:
+- Numeric columns: Impute with median to handle skewness.
+- Categorical columns: Impute with mode (most frequent value).

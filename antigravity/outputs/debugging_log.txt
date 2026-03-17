@@ -1,0 +1,16 @@
+### Task 4: Debugging a Broken Pipeline ###
+
+SCENARIO: A developer tries to scale the features using StandardScaler,
+but they mistakenly apply fit_transform to the ENTIRE dataset before splitting it.
+This causes DATA LEAKAGE because information about the test set distribution
+influences the scaling of the training set.
+
+--- Running Broken Pipeline ---
+Broken Pipeline RMSE: 2.2507
+Diagnosis: The RMSE might look 'fine' or artificially low, but the methodology is flawed.
+The test set was not truly held out since its mean/variance influenced the scaler.
+
+--- Running Fixed Pipeline ---
+Fixed Pipeline RMSE: 2.2507
+Fix Confirmed: Scaler was fitted exclusively on training data.
+This ensures evaluating the model reflects true generalization to unseen data.

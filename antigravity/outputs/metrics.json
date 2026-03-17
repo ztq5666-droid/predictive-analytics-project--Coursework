@@ -1,0 +1,46 @@
+{
+    "config": {
+        "target": "Exam_Score",
+        "features": {
+            "numeric": [
+                "Hours_Studied",
+                "Attendance",
+                "Sleep_Hours",
+                "Previous_Scores",
+                "Tutoring_Sessions",
+                "Physical_Activity"
+            ],
+            "categorical": [
+                "Parental_Involvement",
+                "Access_to_Resources",
+                "Extracurricular_Activities",
+                "Motivation_Level",
+                "Internet_Access",
+                "Family_Income",
+                "Teacher_Quality",
+                "School_Type",
+                "Peer_Influence",
+                "Learning_Disabilities",
+                "Parental_Education_Level",
+                "Distance_from_Home",
+                "Gender"
+            ]
+        },
+        "test_size": 0.2,
+        "random_state": 42,
+        "models_used": [
+            "DummyRegressor",
+            "RandomForestRegressor"
+        ]
+    },
+    "metrics": {
+        "DummyRegressor": {
+            "RMSE": 3.7610625756635034,
+            "R2": -0.0007441932130782813
+        },
+        "RandomForestRegressor": {
+            "RMSE": 2.155993159844207,
+            "R2": 0.671150854432788
+        }
+    }
+}

@@ -1,0 +1,12 @@
+,Hours_Studied,Attendance,Parental_Involvement,Access_to_Resources,Extracurricular_Activities,Sleep_Hours,Previous_Scores,Motivation_Level,Internet_Access,Tutoring_Sessions,Family_Income,Teacher_Quality,School_Type,Peer_Influence,Physical_Activity,Learning_Disabilities,Parental_Education_Level,Distance_from_Home,Gender,Exam_Score
+count,6607.0,6607.0,6607,6607,6607,6607.0,6607.0,6607,6607,6607.0,6607,6607,6607,6607,6607.0,6607,6607,6607,6607,6607.0
+unique,,,3,3,2,,,3,2,,3,3,2,3,,2,3,3,2,
+top,,,Medium,Medium,Yes,,,Medium,Yes,,Low,Medium,Public,Positive,,No,High School,Near,Male,
+freq,,,3362,3319,3938,,,3351,6108,,2672,4003,4598,2638,,5912,3313,3951,3814,
+mean,19.975329196306948,79.97744816104132,,,,7.029060087785682,75.07053125472983,,,1.4937187831088239,,,,,2.9676101104888755,,,,,67.23565914938702
+std,5.9905943365787415,11.547474961482814,,,,1.4681202267434879,14.399784350759024,,,1.2305704213240194,,,,,1.0312310926271286,,,,,3.890455781261732
+min,1.0,60.0,,,,4.0,50.0,,,0.0,,,,,0.0,,,,,55.0
+25%,16.0,70.0,,,,6.0,63.0,,,1.0,,,,,2.0,,,,,65.0
+50%,20.0,80.0,,,,7.0,75.0,,,1.0,,,,,3.0,,,,,67.0
+75%,24.0,90.0,,,,8.0,88.0,,,2.0,,,,,4.0,,,,,69.0
+max,44.0,100.0,,,,10.0,100.0,,,8.0,,,,,6.0,,,,,101.0
