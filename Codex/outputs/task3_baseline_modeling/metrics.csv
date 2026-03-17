@@ -1,0 +1,4 @@
+model,mae,rmse,r2
+ridge_regression,0.452371,1.80441,0.769658
+random_forest_regressor,1.072635,2.149144,0.673237
+dummy_mean_regressor,2.82349,3.761063,-0.000744

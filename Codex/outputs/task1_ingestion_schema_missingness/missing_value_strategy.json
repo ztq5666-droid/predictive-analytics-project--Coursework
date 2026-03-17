@@ -1,0 +1,82 @@
+{
+  "numeric": {
+    "Hours_Studied": {
+      "method": "median",
+      "fill_value": 20.0
+    },
+    "Attendance": {
+      "method": "median",
+      "fill_value": 80.0
+    },
+    "Sleep_Hours": {
+      "method": "median",
+      "fill_value": 7.0
+    },
+    "Previous_Scores": {
+      "method": "median",
+      "fill_value": 75.0
+    },
+    "Tutoring_Sessions": {
+      "method": "median",
+      "fill_value": 1.0
+    },
+    "Physical_Activity": {
+      "method": "median",
+      "fill_value": 3.0
+    }
+  },
+  "categorical": {
+    "Parental_Involvement": {
+      "method": "mode",
+      "fill_value": "Medium"
+    },
+    "Access_to_Resources": {
+      "method": "mode",
+      "fill_value": "Medium"
+    },
+    "Extracurricular_Activities": {
+      "method": "mode",
+      "fill_value": "Yes"
+    },
+    "Motivation_Level": {
+      "method": "mode",
+      "fill_value": "Medium"
+    },
+    "Internet_Access": {
+      "method": "mode",
+      "fill_value": "Yes"
+    },
+    "Family_Income": {
+      "method": "mode",
+      "fill_value": "Low"
+    },
+    "Teacher_Quality": {
+      "method": "mode",
+      "fill_value": "Medium"
+    },
+    "School_Type": {
+      "method": "mode",
+      "fill_value": "Public"
+    },
+    "Peer_Influence": {
+      "method": "mode",
+      "fill_value": "Positive"
+    },
+    "Learning_Disabilities": {
+      "method": "mode",
+      "fill_value": "No"
+    },
+    "Parental_Education_Level": {
+      "method": "mode",
+      "fill_value": "High School"
+    },
+    "Distance_from_Home": {
+      "method": "mode",
+      "fill_value": "Near"
+    },
+    "Gender": {
+      "method": "mode",
+      "fill_value": "Male"
+    }
+  }
+}

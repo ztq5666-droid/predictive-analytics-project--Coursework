@@ -1,0 +1,6 @@
+{
+  "random_seed":42,
+  "model":"LinearRegression()",
+  "task_type":"regression",
+  "target":"Exam_Score"
+}

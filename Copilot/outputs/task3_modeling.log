@@ -1,0 +1,15 @@
+2026-03-16 20:26:06,696 INFO:Cleaned data loaded.
+2026-03-16 20:26:06,696 INFO:Target column selected: Exam_Score
+2026-03-16 20:26:06,696 INFO:Task type: regression
+2026-03-16 20:26:06,717 INFO:Train/test split: (5285, 27), (1322, 27)
+2026-03-16 20:27:30,448 INFO:Cleaned data loaded.
+2026-03-16 20:27:30,448 INFO:Target column selected: Exam_Score
+2026-03-16 20:27:30,448 INFO:Task type: regression
+2026-03-16 20:27:30,457 INFO:Train/test split: (5285, 27), (1322, 27)
+2026-03-16 20:37:06,037 INFO:Cleaned data loaded.
+2026-03-16 20:37:06,037 INFO:Target column selected: Exam_Score
+2026-03-16 20:37:06,038 INFO:Task type: regression
+2026-03-16 20:37:06,046 INFO:Train/test split: (5285, 27), (1322, 27)
+2026-03-16 20:37:06,054 INFO:Metrics saved: {'rmse': np.float64(1.8044445092722843)}
+2026-03-16 20:37:06,058 INFO:Predictions saved.
+2026-03-16 20:37:06,059 INFO:Config saved: {'random_seed': 42, 'model': 'LinearRegression()', 'task_type': 'regression', 'target': 'Exam_Score'}

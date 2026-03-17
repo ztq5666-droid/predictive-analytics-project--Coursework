@@ -1,0 +1,23 @@
+2026-03-14 19:31:45,301 | INFO | task3_baseline_modeling | Loading dataset from C:\Users\jackp\Desktop\MSIN0097-Group-Coursework\data\StudentPerformanceFactors.csv
+2026-03-14 19:31:45,310 | INFO | task3_baseline_modeling | Dataset loaded with shape=(6607, 20)
+2026-03-14 19:31:45,312 | INFO | task3_baseline_modeling | Normalized string column 'Parental_Involvement' while preserving null compatibility
+2026-03-14 19:31:45,313 | INFO | task3_baseline_modeling | Normalized string column 'Access_to_Resources' while preserving null compatibility
+2026-03-14 19:31:45,315 | INFO | task3_baseline_modeling | Normalized string column 'Extracurricular_Activities' while preserving null compatibility
+2026-03-14 19:31:45,317 | INFO | task3_baseline_modeling | Normalized string column 'Motivation_Level' while preserving null compatibility
+2026-03-14 19:31:45,319 | INFO | task3_baseline_modeling | Normalized string column 'Internet_Access' while preserving null compatibility
+2026-03-14 19:31:45,320 | INFO | task3_baseline_modeling | Normalized string column 'Family_Income' while preserving null compatibility
+2026-03-14 19:31:45,321 | INFO | task3_baseline_modeling | Normalized string column 'Teacher_Quality' while preserving null compatibility
+2026-03-14 19:31:45,323 | INFO | task3_baseline_modeling | Normalized string column 'School_Type' while preserving null compatibility
+2026-03-14 19:31:45,324 | INFO | task3_baseline_modeling | Normalized string column 'Peer_Influence' while preserving null compatibility
+2026-03-14 19:31:45,326 | INFO | task3_baseline_modeling | Normalized string column 'Learning_Disabilities' while preserving null compatibility
+2026-03-14 19:31:45,327 | INFO | task3_baseline_modeling | Normalized string column 'Parental_Education_Level' while preserving null compatibility
+2026-03-14 19:31:45,329 | INFO | task3_baseline_modeling | Normalized string column 'Distance_from_Home' while preserving null compatibility
+2026-03-14 19:31:45,330 | INFO | task3_baseline_modeling | Normalized string column 'Gender' while preserving null compatibility
+2026-03-14 19:31:45,335 | INFO | task3_baseline_modeling | Train/test split complete: train=(5285, 19), test=(1322, 19)
+2026-03-14 19:31:45,335 | INFO | task3_baseline_modeling | Training dummy_mean_regressor
+2026-03-14 19:31:45,359 | INFO | task3_baseline_modeling | Completed dummy_mean_regressor with metrics={'model': 'dummy_mean_regressor', 'mae': 2.82349, 'rmse': 3.761063, 'r2': -0.000744}
+2026-03-14 19:31:45,359 | INFO | task3_baseline_modeling | Training ridge_regression
+2026-03-14 19:31:45,384 | INFO | task3_baseline_modeling | Completed ridge_regression with metrics={'model': 'ridge_regression', 'mae': 0.452371, 'rmse': 1.80441, 'r2': 0.769658}
+2026-03-14 19:31:45,384 | INFO | task3_baseline_modeling | Training random_forest_regressor
+2026-03-14 19:31:50,248 | INFO | task3_baseline_modeling | Completed random_forest_regressor with metrics={'model': 'random_forest_regressor', 'mae': 1.072635, 'rmse': 2.149144, 'r2': 0.673237}
+2026-03-14 19:31:50,256 | INFO | task3_baseline_modeling | Saved metrics, predictions, and configuration

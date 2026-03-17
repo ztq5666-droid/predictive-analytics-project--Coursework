@@ -1,0 +1,10 @@
+{
+  "task_name": "Debugging a deliberately broken pipeline",
+  "specification": "Construct a small broken regression pipeline using this dataset, capture the failure, diagnose the root cause, fix the pipeline, and confirm the repaired version runs successfully.",
+  "success_criteria": [
+    "The broken pipeline fails with saved evidence.",
+    "The cause is identified clearly.",
+    "A corrected pipeline is executed successfully with saved confirmation output."
+  ],
+  "log_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\outputs\\task4_debug_broken_pipeline.log"
+}

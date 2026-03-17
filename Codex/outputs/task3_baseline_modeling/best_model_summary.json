@@ -1,0 +1,8 @@
+{
+  "best_model": {
+    "model": "ridge_regression",
+    "mae": 0.452371,
+    "rmse": 1.80441,
+    "r2": 0.769658
+  }
+}

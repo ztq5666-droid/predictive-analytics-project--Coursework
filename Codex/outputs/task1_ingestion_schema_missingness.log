@@ -1,0 +1,22 @@
+2026-03-14 19:31:42,332 | INFO | task1_ingestion_schema_missingness | Loading dataset from C:\Users\jackp\Desktop\MSIN0097-Group-Coursework\data\StudentPerformanceFactors.csv
+2026-03-14 19:31:42,341 | INFO | task1_ingestion_schema_missingness | Dataset loaded with shape=(6607, 20)
+2026-03-14 19:31:42,343 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Parental_Involvement' while preserving null compatibility
+2026-03-14 19:31:42,345 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Access_to_Resources' while preserving null compatibility
+2026-03-14 19:31:42,346 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Extracurricular_Activities' while preserving null compatibility
+2026-03-14 19:31:42,347 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Motivation_Level' while preserving null compatibility
+2026-03-14 19:31:42,348 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Internet_Access' while preserving null compatibility
+2026-03-14 19:31:42,350 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Family_Income' while preserving null compatibility
+2026-03-14 19:31:42,352 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Teacher_Quality' while preserving null compatibility
+2026-03-14 19:31:42,353 | INFO | task1_ingestion_schema_missingness | Normalized string column 'School_Type' while preserving null compatibility
+2026-03-14 19:31:42,354 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Peer_Influence' while preserving null compatibility
+2026-03-14 19:31:42,356 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Learning_Disabilities' while preserving null compatibility
+2026-03-14 19:31:42,357 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Parental_Education_Level' while preserving null compatibility
+2026-03-14 19:31:42,359 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Distance_from_Home' while preserving null compatibility
+2026-03-14 19:31:42,360 | INFO | task1_ingestion_schema_missingness | Normalized string column 'Gender' while preserving null compatibility
+2026-03-14 19:31:42,389 | INFO | task1_ingestion_schema_missingness | Saved schema report to C:\Users\jackp\Desktop\MSIN0097-Group-Coursework\outputs\task1_ingestion_schema_missingness\schema_report.json
+2026-03-14 19:31:42,394 | INFO | task1_ingestion_schema_missingness | Saved pre-imputation missingness report
+2026-03-14 19:31:42,400 | WARNING | task1_ingestion_schema_missingness | Filled 78 missing values in categorical column 'Teacher_Quality' with mode='Medium'
+2026-03-14 19:31:42,401 | WARNING | task1_ingestion_schema_missingness | Filled 90 missing values in categorical column 'Parental_Education_Level' with mode='High School'
+2026-03-14 19:31:42,402 | WARNING | task1_ingestion_schema_missingness | Filled 67 missing values in categorical column 'Distance_from_Home' with mode='Near'
+2026-03-14 19:31:42,404 | INFO | task1_ingestion_schema_missingness | Remaining missing values after handling: 0
+2026-03-14 19:31:42,424 | INFO | task1_ingestion_schema_missingness | Saved cleaned dataset and missing-value strategy

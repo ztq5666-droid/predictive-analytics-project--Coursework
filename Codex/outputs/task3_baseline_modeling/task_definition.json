@@ -1,0 +1,11 @@
+{
+  "task_name": "Baseline model training + evaluation harness",
+  "specification": "Use Exam_Score as a regression target, build a leakage-safe preprocessing and evaluation harness, train one simple and one stronger baseline, and save metrics, config, and predictions.",
+  "success_criteria": [
+    "Target selection is stated and justified.",
+    "Train/test split uses a fixed random seed.",
+    "Pipelines impute and encode inside the estimator flow to avoid leakage.",
+    "Metrics, predictions, and run configuration are saved."
+  ],
+  "log_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\outputs\\task3_baseline_modeling.log"
+}

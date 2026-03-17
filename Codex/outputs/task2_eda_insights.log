@@ -1,0 +1,20 @@
+2026-03-14 19:31:43,718 | INFO | task2_eda_insights | Loading dataset from C:\Users\jackp\Desktop\MSIN0097-Group-Coursework\data\StudentPerformanceFactors.csv
+2026-03-14 19:31:43,727 | INFO | task2_eda_insights | Dataset loaded with shape=(6607, 20)
+2026-03-14 19:31:43,731 | INFO | task2_eda_insights | Normalized string column 'Parental_Involvement' while preserving null compatibility
+2026-03-14 19:31:43,732 | INFO | task2_eda_insights | Normalized string column 'Access_to_Resources' while preserving null compatibility
+2026-03-14 19:31:43,734 | INFO | task2_eda_insights | Normalized string column 'Extracurricular_Activities' while preserving null compatibility
+2026-03-14 19:31:43,736 | INFO | task2_eda_insights | Normalized string column 'Motivation_Level' while preserving null compatibility
+2026-03-14 19:31:43,737 | INFO | task2_eda_insights | Normalized string column 'Internet_Access' while preserving null compatibility
+2026-03-14 19:31:43,739 | INFO | task2_eda_insights | Normalized string column 'Family_Income' while preserving null compatibility
+2026-03-14 19:31:43,740 | INFO | task2_eda_insights | Normalized string column 'Teacher_Quality' while preserving null compatibility
+2026-03-14 19:31:43,741 | INFO | task2_eda_insights | Normalized string column 'School_Type' while preserving null compatibility
+2026-03-14 19:31:43,743 | INFO | task2_eda_insights | Normalized string column 'Peer_Influence' while preserving null compatibility
+2026-03-14 19:31:43,745 | INFO | task2_eda_insights | Normalized string column 'Learning_Disabilities' while preserving null compatibility
+2026-03-14 19:31:43,746 | INFO | task2_eda_insights | Normalized string column 'Parental_Education_Level' while preserving null compatibility
+2026-03-14 19:31:43,748 | INFO | task2_eda_insights | Normalized string column 'Distance_from_Home' while preserving null compatibility
+2026-03-14 19:31:43,750 | INFO | task2_eda_insights | Normalized string column 'Gender' while preserving null compatibility
+2026-03-14 19:31:43,756 | WARNING | task2_eda_insights | Filled 78 missing values in categorical column 'Teacher_Quality' with mode='Medium'
+2026-03-14 19:31:43,758 | WARNING | task2_eda_insights | Filled 90 missing values in categorical column 'Parental_Education_Level' with mode='High School'
+2026-03-14 19:31:43,758 | WARNING | task2_eda_insights | Filled 67 missing values in categorical column 'Distance_from_Home' with mode='Near'
+2026-03-14 19:31:43,761 | INFO | task2_eda_insights | Remaining missing values after handling: 0
+2026-03-14 19:31:44,309 | INFO | task2_eda_insights | Saved EDA summaries, plots, and insights

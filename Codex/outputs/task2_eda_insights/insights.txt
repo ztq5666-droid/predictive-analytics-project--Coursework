@@ -1,0 +1,5 @@
+- Exam_Score is the chosen target because it is the only clear outcome variable and is numeric.
+- Previous_Scores has the strongest positive linear relationship with Exam_Score among the numeric predictors in the saved correlation file: Attendance=0.581.
+- Hours_Studied and Attendance also show positive associations with Exam_Score, which is visible in the correlation outputs and consistent with the scatter and distribution patterns.
+- Motivation groups differ in central tendency; the saved grouped summary and boxplot show that the top median group is High with median=67.0.
+- Missingness was limited to three categorical columns and was handled before plotting, so the EDA artifacts reflect the cleaned dataset used later for modeling.

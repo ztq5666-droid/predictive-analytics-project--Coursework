@@ -1,0 +1,6 @@
+{
+  "status": "success",
+  "target_column_choice": "Exam_Score",
+  "remaining_missing_values": 0,
+  "cleaned_dataset_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\outputs\\task1_ingestion_schema_missingness\\cleaned_student_performance.csv"
+}

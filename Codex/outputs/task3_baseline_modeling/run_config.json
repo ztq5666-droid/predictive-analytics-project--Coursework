@@ -1,0 +1,56 @@
+{
+  "target_column": "Exam_Score",
+  "task_type": "regression",
+  "seed": 42,
+  "test_size": 0.2,
+  "feature_columns": [
+    "Hours_Studied",
+    "Attendance",
+    "Parental_Involvement",
+    "Access_to_Resources",
+    "Extracurricular_Activities",
+    "Sleep_Hours",
+    "Previous_Scores",
+    "Motivation_Level",
+    "Internet_Access",
+    "Tutoring_Sessions",
+    "Family_Income",
+    "Teacher_Quality",
+    "School_Type",
+    "Peer_Influence",
+    "Physical_Activity",
+    "Learning_Disabilities",
+    "Parental_Education_Level",
+    "Distance_from_Home",
+    "Gender"
+  ],
+  "numeric_columns": [
+    "Hours_Studied",
+    "Attendance",
+    "Sleep_Hours",
+    "Previous_Scores",
+    "Tutoring_Sessions",
+    "Physical_Activity"
+  ],
+  "categorical_columns": [
+    "Parental_Involvement",
+    "Access_to_Resources",
+    "Extracurricular_Activities",
+    "Motivation_Level",
+    "Internet_Access",
+    "Family_Income",
+    "Teacher_Quality",
+    "School_Type",
+    "Peer_Influence",
+    "Learning_Disabilities",
+    "Parental_Education_Level",
+    "Distance_from_Home",
+    "Gender"
+  ],
+  "leakage_prevention": "Imputation, scaling, and one-hot encoding are fit inside sklearn pipelines on the training split only.",
+  "models": [
+    "dummy_mean_regressor",
+    "ridge_regression",
+    "random_forest_regressor"
+  ]
+}

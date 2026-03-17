@@ -1,0 +1,6 @@
+{
+  "failure": "could not convert string to float: 'Low'",
+  "detected_by": "Pipeline fit raised an exception because categorical strings reached LinearRegression unchanged.",
+  "diagnosis": "The categorical branch only imputes values and does not encode strings, so the linear model receives non-numeric feature values.",
+  "traceback_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\outputs\\task4_debug_broken_pipeline\\broken_pipeline_traceback.txt"
+}

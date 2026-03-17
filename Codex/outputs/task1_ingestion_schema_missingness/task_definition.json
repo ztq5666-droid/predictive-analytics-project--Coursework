@@ -1,0 +1,11 @@
+{
+  "task_name": "Dataset ingestion + schema checks + missingness handling",
+  "specification": "Load the CSV safely, inspect schema and missingness, detect obvious data-quality issues, apply a documented missing-value strategy, and save reports plus a cleaned dataset.",
+  "success_criteria": [
+    "Dataset loads from data/StudentPerformanceFactors.csv without manual intervention.",
+    "Schema report includes shape, columns, dtypes, duplicates, and obvious schema warnings.",
+    "Missingness report is saved before and after handling.",
+    "A cleaned CSV with handled missing values is written under outputs/."
+  ],
+  "log_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\outputs\\task1_ingestion_schema_missingness.log"
+}

@@ -1,0 +1,6 @@
+{
+  "broken_pipeline_failed": true,
+  "fix_applied": "Added OneHotEncoder(handle_unknown='ignore') to the categorical preprocessing branch.",
+  "fixed_pipeline_status": "success",
+  "sample_prediction_rows_saved": 20
+}

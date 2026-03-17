@@ -1,0 +1,10 @@
+{
+  "task_name": "EDA and insight generation",
+  "specification": "Produce summary statistics, save informative plots, and write concise insights that are supported by the dataset and generated artifacts.",
+  "success_criteria": [
+    "Numeric and categorical summaries are saved.",
+    "Several informative plots are generated and written under outputs/.",
+    "Insights mention evidence from the saved summaries or plots without unsupported claims."
+  ],
+  "log_path": "C:\\Users\\jackp\\Desktop\\MSIN0097-Group-Coursework\\outputs\\task2_eda_insights.log"
+}

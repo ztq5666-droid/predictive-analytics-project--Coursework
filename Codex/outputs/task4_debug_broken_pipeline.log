@@ -1,0 +1,46 @@
+2026-03-14 19:31:51,157 | INFO | task4_debug_broken_pipeline | Loading dataset from C:\Users\jackp\Desktop\MSIN0097-Group-Coursework\data\StudentPerformanceFactors.csv
+2026-03-14 19:31:51,167 | INFO | task4_debug_broken_pipeline | Dataset loaded with shape=(6607, 20)
+2026-03-14 19:31:51,170 | INFO | task4_debug_broken_pipeline | Normalized string column 'Parental_Involvement' while preserving null compatibility
+2026-03-14 19:31:51,170 | INFO | task4_debug_broken_pipeline | Normalized string column 'Access_to_Resources' while preserving null compatibility
+2026-03-14 19:31:51,172 | INFO | task4_debug_broken_pipeline | Normalized string column 'Extracurricular_Activities' while preserving null compatibility
+2026-03-14 19:31:51,174 | INFO | task4_debug_broken_pipeline | Normalized string column 'Motivation_Level' while preserving null compatibility
+2026-03-14 19:31:51,175 | INFO | task4_debug_broken_pipeline | Normalized string column 'Internet_Access' while preserving null compatibility
+2026-03-14 19:31:51,176 | INFO | task4_debug_broken_pipeline | Normalized string column 'Family_Income' while preserving null compatibility
+2026-03-14 19:31:51,178 | INFO | task4_debug_broken_pipeline | Normalized string column 'Teacher_Quality' while preserving null compatibility
+2026-03-14 19:31:51,180 | INFO | task4_debug_broken_pipeline | Normalized string column 'School_Type' while preserving null compatibility
+2026-03-14 19:31:51,181 | INFO | task4_debug_broken_pipeline | Normalized string column 'Peer_Influence' while preserving null compatibility
+2026-03-14 19:31:51,183 | INFO | task4_debug_broken_pipeline | Normalized string column 'Learning_Disabilities' while preserving null compatibility
+2026-03-14 19:31:51,184 | INFO | task4_debug_broken_pipeline | Normalized string column 'Parental_Education_Level' while preserving null compatibility
+2026-03-14 19:31:51,185 | INFO | task4_debug_broken_pipeline | Normalized string column 'Distance_from_Home' while preserving null compatibility
+2026-03-14 19:31:51,187 | INFO | task4_debug_broken_pipeline | Normalized string column 'Gender' while preserving null compatibility
+2026-03-14 19:31:51,192 | INFO | task4_debug_broken_pipeline | Running deliberately broken pipeline
+2026-03-14 19:31:51,230 | ERROR | task4_debug_broken_pipeline | Broken pipeline failed as expected
+Traceback (most recent call last):
+  File "C:\Users\jackp\Desktop\MSIN0097-Group-Coursework\scripts\task4_debug_broken_pipeline.py", line 111, in main
+    broken.fit(x_train, y_train)
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\pipeline.py", line 663, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_base.py", line 618, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2971, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 1368, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 1053, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jackp\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\_array_api.py", line 757, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Low'
+2026-03-14 19:31:51,231 | INFO | task4_debug_broken_pipeline | Running fixed pipeline
+2026-03-14 19:31:51,274 | INFO | task4_debug_broken_pipeline | Saved failure evidence and fix confirmation
